@@ -1,0 +1,70 @@
+.top_cat
+{
+	
+	 
+	 display: flex;
+	 justify-content: space-around;
+	 align-items: center;
+    	 
+}
+.top_cat_pro
+{
+    
+	width: 350px;
+	 height: 450px;
+     float	:left;
+	 margin-top: 40px;
+	 margin-bottom: 40px;
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.35);
+	 transition: transform 1s;
+	
+}
+
+.top_cat_pro:hover
+{
+	transform : scale(1.05);
+}
+
+
+ 
+.top_cat_pro img
+{
+	width: 350px;
+}
+.title p
+{
+	text-align: center;
+	font-size: 16px;
+	}
+.title b 
+{
+	color:green;
+	font-size:20px;
+	
+}	
+
+.button
+	{
+		
+		height:28px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.button input
+	{
+		height:20px;
+		width:120px;
+		border-radius: 7px;
+		border:0px;
+		background-color:orange;
+		font-size:20px;
+		 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.35);
+		
+	}
+	.button input:hover
+	{
+		background-color:green;
+		color:white;
+		
+	}
